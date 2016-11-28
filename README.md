@@ -1,7 +1,16 @@
 # PURSUIT
 
-A Fast JavaScript Fullstack based on Regular UI.
+> PURSUIT: A Fast, Advanced and Componentized Front-end Framework, which integrated with:
+>
+> es6 + babel + web`P`ack + g`U`lp + `R`egular + mcs`S` + rg`UI` + eslin`T` + karma + mocha + expect.js + spritesmith + fontcustom + ...
 
-web[P]ack + g[U]lp + [R]egular + mcs[S] + RG[UI] + s[T]ateman
+## QuickStart
 
-babel + es6 + karma + mocha + expect.js
+```shell
+npm install -g pursuit-cli
+pursuit init demo
+cd demo
+pursuit dev
+```
+
+See [pursuit-cli](https://github.com/rainfore/pursuit-cli) for more details。

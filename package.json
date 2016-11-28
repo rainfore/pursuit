@@ -1,0 +1,32 @@
+{
+  "name": "pursuit",
+  "description": "A Fast, Advanced and Componentized Front-end Framework.",
+  "version": "0.1.0",
+  "author": "Rainfore <rainforest92@126.com>",
+  "repository": "rainfore/pursuit",
+  "bugs": {
+    "url": "http://github.com/rainfore/pursuit/issues"
+  },
+  "keywords": [
+    "frontend"
+    "framework",
+    "componentized",
+    "webpack",
+    "gulp",
+    "regular",
+    "mcss",
+    "rgui",
+    "eslint"
+  ],
+  "tags": [
+    "frontend"
+    "framework",
+    "componentized",
+    "webpack",
+    "gulp",
+    "regular",
+    "mcss",
+    "rgui",
+    "eslint"
+  ]
+}
