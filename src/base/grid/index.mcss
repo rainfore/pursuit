@@ -1,0 +1,21 @@
+$g-top_height = 60px;
+$g-hd_height = 540px; // 480px;
+
+.g-wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.g-top {
+    height: $g-top_height;
+    background: $brand-back;
+}
+
+.g-hd {
+    height: $g-hd_height;
+    background: $brand-back;
+}
+
+.g-bd {
+    padding: 40px 0;
+}

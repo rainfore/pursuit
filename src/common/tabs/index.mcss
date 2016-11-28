@@ -1,0 +1,73 @@
+@import "rgui-ui-tabs/tabs/core.mcss";
+
+// Variables:
+// ========================================================================
+
+$m-tabs_hd_li_margin = 5px;
+$m-tabs_hd_li_padding-horizontal = 15px;
+$m-tabs_hd_border = #f4f4f4;
+$m-tabs-vertical_hd_li_width = 120px;
+
+// Component:       `m-tabs`
+// ========================================================================
+
+.m-tabs {
+    $border-radius: 3px;
+
+    .tabs_hd {
+        margin-left: -1px;
+
+        > li {
+            $line-height: 40px;
+            color: $color-base;
+            border: $border-width-base solid transparent;
+            border-bottom-width: 0;
+            margin-bottom: -$border-width-base;
+
+            > a, > span {
+                padding: 0 30px;
+            }
+        }
+
+        > li + li {
+            margin-left: $m-tabs_hd_li_margin;
+        }
+
+        > li:hover,    // - Apply hover style also to focus state
+        > li:focus {
+            color: l-adjust($color-base, 20%);
+        }
+
+        > li.z-crt {
+            background: white;
+            color: #444;
+            border-color: $m-tabs_hd_border;
+            $box-shadow: 0 -3px $brand-primary;
+            padding-bottom: $border-width-base;
+        }
+
+        > li.z-dis {
+            color: #999;
+            background: none;
+            border-color: transparent;
+        }
+    }
+
+    .tabs_bd {
+        background: white;
+        border-top: $border-width-base solid $m-tabs_hd_border;
+        padding: 20px;
+        $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Disabled */
+.m-tabs.z-dis {
+    .tabs_hd {
+        > li:not(.z-crt) {
+            background: none;
+            color: #999;
+            border-color: transparent;
+        }
+    }
+}

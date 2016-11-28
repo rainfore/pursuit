@@ -1,0 +1,7 @@
+@import 'rgui-css-base/base/core.mcss';
+
+body {
+    font: $font-size-base/$line-height-base $font-family-sans-serif;
+    color: $color-base;
+    -webkit-font-smoothing: antialiased;
+}

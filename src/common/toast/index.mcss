@@ -1,0 +1,25 @@
+@import 'rgui-ui-toast/toast/core.mcss';
+
+// Component:       `m-toast`
+// ========================================================================
+
+.m-toast {
+    top: 160px;
+
+    .toast_item {
+        padding: 15px;
+        background: $brand-primary;
+        color: white;
+
+        &:before {
+            @extend .u-icon;
+            font-size: 20px;
+            line-height: 1;
+            vertical-align: middle;
+        }
+    }
+
+    .toast_close {
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+@import 'rgui-css-standard/navbar/core.mcss';
+
+// Varibles:
+// ========================================================================
+
+$m-navbar_height = $g-top_height;
+$m-navbar_background = $brand-primary;
+
+// Component:       `m-navbar`
+// ========================================================================
+
+.m-navbar {
+    float: right;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+
+    > li {
+
+        > a, > span {
+            min-width: 120px;
+            $line-height: $m-navbar_height;
+            color: white;
+            $transition: all $animation-duration;
+        }
+    }
+
+    > li:hover > a {
+        background: $m-navbar_background;
+    }
+
+    > li.z-crt > a {
+        background: $m-navbar_background;
+    }
+}

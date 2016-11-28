@@ -1,0 +1,80 @@
+@import 'rgui-css-standard/button/core.mcss';
+
+// Component:       `u-btn`
+// ========================================================================
+
+.u-btn {
+    padding: 0 40px;
+    $line-height: $height-base;
+
+    background: white;
+    color: $brand-primary;
+    $border: $brand-primary;
+    $transition: all $animation-duration;
+}
+
+/* Hover */
+.u-btn:hover {
+    background: $brand-primary;
+    color: white;
+}
+
+/* Active */
+.u-btn:active,
+.u-btn.z-act {
+    background: $brand-primary-darker;
+    color: white;
+}
+
+
+
+.u-btn-primary {
+    background: $brand-primary;
+    color: white;
+    $border: $brand-primary;
+}
+
+/* Hover */
+.u-btn-primary:hover {
+    background: $brand-primary-darker;
+    color: white;
+    border-color: $brand-primary-darker;
+}
+
+/* Active */
+.u-btn-primary:active,
+.u-btn-primary.z-act {
+    background: $brand-primary-darker;
+    color: white;
+    border-color: $brand-primary-darker;
+}
+
+
+
+.u-btn-inverse {
+    background: none;
+    color: white;
+    $border: white;
+}
+
+/* Hover */
+.u-btn-inverse:hover {
+    background: $brand-primary;
+    color: white;
+    border-color: $brand-primary;
+}
+
+/* Active */
+.u-btn-inverse:active,
+.u-btn-inverse.z-act {
+    background: $brand-primary-darker;
+    color: white;
+    border-color: $brand-primary-darker;
+}
+
+
+
+.u-btn-lg {
+    $line-height: 40px;
+    padding: 0 60px;
+}

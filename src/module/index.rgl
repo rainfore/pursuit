@@ -1,11 +1,45 @@
 <div class="g-top">
     <div class="g-wrap">
         <div class="u-logo"></div>
-        <div class="navbar"></div>
+        <ul class="m-navbar">
+            <li><a href="https://github.com/rainfore/pursuit-cli">INSTALL</a></li>
+            <li><a href="https://github.com/rainfore/pursuit-cli">TUTORIAL</a></li>
+            <li><a on-click={this.showToast()}>SHOWCASE</a></li>
+            <li><a on-click={this.showToast()}>PACKAGES</a></li>
+            <li><a on-click={this.showToast()}>ABOUT</a></li>
+        </ul>
+    </div>
+</div>
+<div class="g-hd">
+    <div class="g-wrap">
+        <div class="m-banner">
+            <h2>A Fast, Advanced and Componentized</h2>
+            <h3>Front-end Framework for Your Next Web Application</h3>
+            <a class="u-btn u-btn-primary u-btn-lg" href="https://github.com/rainfore/pursuit-cli">VIEW ON GITHUB</a>
+        </div>
     </div>
 </div>
 <div class="g-bd">
-    <div class="g-wrap"></div>
+    <div class="g-wrap">
+        <tabs>
+            <tab title="Build">
+                <img src="img/qrcode.png" width="200" />
+                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+            </tab>
+            <tab title="Doc">
+                <img src="img/qrcode.png" width="200" />
+                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+            </tab>
+            <tab title="Lint">
+                <img src="img/qrcode.png" width="200" />
+                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+            </tab>
+            <tab title="Test">
+                <img src="img/qrcode.png" width="200" />
+                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+            </tab>
+        </tabs>
+    </div>
 </div>
 <div class="g-ft">
     <div class="g-wrap"></div>
