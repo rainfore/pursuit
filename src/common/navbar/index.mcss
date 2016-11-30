@@ -11,24 +11,29 @@ $m-navbar_background = $brand-primary;
 
 .m-navbar {
     float: right;
-    color: white;
+    // color: white;
     font-family: proxima-nova, sans-serif;
 
     > li {
 
         > a, > span {
-            min-width: 120px;
-            $line-height: $m-navbar_height;
-            color: white;
+            min-width: 136px;
+            $line-height: $m-navbar_height - 3px;
+            color: $brand-back;
+            border-top: 3px solid transparent;
             $transition: all $animation-duration;
         }
     }
 
     > li:hover > a {
-        background: $m-navbar_background;
+        border-top: 3px solid $brand-primary;
+        color: $brand-primary;
+        // background: $m-navbar_background;
+        // color: white;
     }
 
     > li.z-crt > a {
-        background: $m-navbar_background;
+        border-top: 3px solid $brand-primary;
+        color: $brand-primary;
     }
 }

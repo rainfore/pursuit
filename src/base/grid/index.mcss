@@ -8,7 +8,6 @@ $g-hd_height = 540px; // 480px;
 
 .g-top {
     height: $g-top_height;
-    background: $brand-back;
 }
 
 .g-hd {

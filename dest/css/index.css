@@ -173,7 +173,7 @@ progress{
 }
 body{
 	font:14px/1.6 "Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
-	color:#232f42;
+	color:#262c35;
 	-webkit-font-smoothing:antialiased;
 }
 .g-wrap{
@@ -182,11 +182,10 @@ body{
 }
 .g-top{
 	height:60px;
-	background:#232f42;
 }
 .g-hd{
 	height:540px;
-	background:#232f42;
+	background:#262c35;
 }
 .g-bd{
 	padding:40px 0;
@@ -327,8 +326,9 @@ body{
 }
 .u-logo{
 	display:inline-block;
-	width:240px;
+	width:180px;
 	height:60px;
+	margin-left:40px;
 	background:url("../img/logo.png");
 }
 .m-banner{
@@ -439,23 +439,25 @@ body{
 }
 .m-navbar{
 	float:right;
-	color:#fff;
 	font-family:proxima-nova,sans-serif;
 }
 .m-navbar >li >a,.m-navbar >li >span{
-	min-width:120px;
-	height:60px;
-	line-height:60px;
-	color:#fff;
+	min-width:136px;
+	height:57px;
+	line-height:57px;
+	color:#262c35;
+	border-top:3px solid transparent;
 	-webkit-transition:all 0.3s;
 	-moz-transition:all 0.3s;
 	transition:all 0.3s;
 }
 .m-navbar >li:hover>a{
-	background:#de5050;
+	border-top:3px solid #de5050;
+	color:#de5050;
 }
 .m-navbar >li.z-crt>a{
-	background:#de5050;
+	border-top:3px solid #de5050;
+	color:#de5050;
 }
 .m-toast{
 	-webkit-box-sizing:border-box;
@@ -547,7 +549,7 @@ body{
 .m-tabs .tabs_hd >li{
 	height:40px;
 	line-height:40px;
-	color:#232f42;
+	color:#262c35;
 	border:1px solid transparent;
 	border-bottom-width:0;
 	margin-bottom:-1px;
@@ -559,7 +561,7 @@ body{
 	margin-left:5px;
 }
 .m-tabs .tabs_hd >li:hover,.m-tabs .tabs_hd >li:focus{
-	color:#465e85;
+	color:#515d70;
 }
 .m-tabs .tabs_hd >li.z-crt{
 	background:#fff;

@@ -1,14 +1,13 @@
 <div class="g-top">
-    <div class="g-wrap">
-        <div class="u-logo"></div>
-        <ul class="m-navbar">
-            <li><a href="https://github.com/rainfore/pursuit-cli">INSTALL</a></li>
-            <li><a href="https://github.com/rainfore/pursuit-cli">TUTORIAL</a></li>
-            <li><a on-click={this.showToast()}>SHOWCASE</a></li>
-            <li><a on-click={this.showToast()}>PACKAGES</a></li>
-            <li><a on-click={this.showToast()}>ABOUT</a></li>
-        </ul>
-    </div>
+    <div class="u-logo"></div>
+    <ul class="m-navbar">
+        <li z-crt><a>OVERVIEW</a></li>
+        <li><a href="https://github.com/rainfore/pursuit-cli">INSTALL</a></li>
+        <li><a href="https://github.com/rainfore/pursuit-cli">TUTORIAL</a></li>
+        <li><a on-click={this.showToast()}>SHOWCASE</a></li>
+        <li><a on-click={this.showToast()}>PACKAGES</a></li>
+        <li><a on-click={this.showToast()}>ABOUT</a></li>
+    </ul>
 </div>
 <div class="g-hd">
     <div class="g-wrap">

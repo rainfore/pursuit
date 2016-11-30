@@ -9,7 +9,7 @@ $media-lg-max-width = 1220px - 1;
 
 $brand-primary = #de5050;
 $brand-primary-darker = #a83636;
-$brand-back = #232f42;
+$brand-back = #262c35;
 $color-base = $brand-back;
 
 // Dimension Variables:

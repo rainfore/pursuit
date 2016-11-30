@@ -1,6 +1,7 @@
 .u-logo {
     display: inline-block;
-    width: 240px;
+    width: 180px;
     height: 60px;
+    margin-left: 40px;
     background: url(../img/logo.png);
 }
