@@ -1,0 +1,44 @@
+/*
+  Icon Font: i-icon
+*/
+
+
+
+@font-face {
+  font-family: "i-icon";
+  src: url("../fonts/i-icon.eot?v=e9f07b00b623987686ffce74962f6bee");
+  src: url("../fonts/i-icon.eot?v=e9f07b00b623987686ffce74962f6bee#iefix") format("embedded-opentype"),
+       url("../fonts/i-icon.woff?v=e9f07b00b623987686ffce74962f6bee") format("woff"),
+       url("../fonts/i-icon.ttf?v=e9f07b00b623987686ffce74962f6bee") format("truetype"),
+       url("../fonts/i-icon.svg?v=e9f07b00b623987686ffce74962f6bee#svg1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "i-icon";
+    src: url("../fonts/i-icon.svg?v=e9f07b00b623987686ffce74962f6bee#svg1") format("svg");
+  }
+}
+
+.i-icon {
+  display: inline-block;
+  font-family: "i-icon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.i-icon-close:before { content: "\f100"; }
+.i-icon-fork:before { content: "\f101"; }
+.i-icon-github:before { content: "\f102"; }
+.i-icon-octoface:before { content: "\f103"; }
+.i-icon-star:before { content: "\f104"; }

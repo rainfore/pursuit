@@ -1,0 +1,5 @@
+.m-section-integrated {
+    .i-logo {
+        margin: 40px;
+    }
+}

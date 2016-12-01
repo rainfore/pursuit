@@ -1,0 +1,2 @@
+<p>用户名：<input class="u-input" r-model={username}></p>
+<p>密　码：<input class="u-input" type="password" r-model={password}></p>

@@ -33,6 +33,7 @@
   ],
   "dependencies": {
     "css-standard": "^0.1.0",
+    "eslint-config-rgui": "regular-ui/eslint-config",
     "regular-state": "^0.2.1",
     "regularjs": "^0.4.3",
     "rgui-css-base": "^0.2.0-alpha",

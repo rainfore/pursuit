@@ -1,0 +1,41 @@
+.i-logo {
+    display: inline-block;
+    background-image: url(../img/i-logo.png?v=4169cad0c8bcb81545112745852c120d);
+}
+
+
+.i-logo-babel {
+    background-position: 0px 0px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-es6 {
+    background-position: -60px 0px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-eslint {
+    background-position: 0px -60px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-gulp {
+    background-position: -60px -60px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-regular-ui {
+    background-position: -120px 0px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-regular {
+    background-position: -120px -60px;
+    width: 60px;
+    height: 60px;
+}
+.i-logo-webpack {
+    background-position: 0px -120px;
+    width: 60px;
+    height: 60px;
+}

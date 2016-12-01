@@ -11,7 +11,7 @@
 </div>
 <div class="g-hd">
     <div class="g-wrap">
-        <div class="m-banner">
+        <div class="m-header">
             <h2>A Fast, Advanced and Componentized</h2>
             <h3>Front-end Framework for Your Next Web Application</h3>
             <a class="u-btn u-btn-primary u-btn-lg" href="https://github.com/rainfore/pursuit-cli">VIEW ON GITHUB</a>
@@ -23,23 +23,34 @@
         <tabs>
             <tab title="Build">
                 <img src="img/qrcode.png" width="200" />
-                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+                <button class="u-btn" on-click={this.showModal()}>Register</button>
             </tab>
             <tab title="Doc">
                 <img src="img/qrcode.png" width="200" />
-                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+                <button class="u-btn" on-click={this.showModal()}>Register</button>
             </tab>
             <tab title="Lint">
                 <img src="img/qrcode.png" width="200" />
-                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+                <button class="u-btn" on-click={this.showModal()}>Register</button>
             </tab>
             <tab title="Test">
                 <img src="img/qrcode.png" width="200" />
-                <button class="u-btn" on-click={this.showModal()}>Demo</button>
+                <button class="u-btn" on-click={this.showModal()}>Register</button>
             </tab>
         </tabs>
     </div>
 </div>
+<section class="m-section m-section-integrated">
+    <div class="g-wrap">
+        <i class="i-logo i-logo-gulp"></i>
+        <i class="i-logo i-logo-webpack"></i>
+        <i class="i-logo i-logo-babel"></i>
+        <i class="i-logo i-logo-es6"></i>
+        <i class="i-logo i-logo-regular"></i>
+        <i class="i-logo i-logo-regular-ui"></i>
+        <i class="i-logo i-logo-eslint"></i>
+    </div>
+</section>
 <div class="g-ft">
     <div class="g-wrap"></div>
 </div>

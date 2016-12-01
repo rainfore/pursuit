@@ -4,7 +4,6 @@ import { Component } from 'rgui-ui-base';
 // Modules
 import App from 'src/module';
 
-
 // States
 const router = restate({ view: '#view', Component, rebuild: true })
     .state('app', App, '')
