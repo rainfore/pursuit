@@ -16,7 +16,7 @@ tmp
 
 # Build directories
 public/
-# dest/
+dest/
 
 # Reports
 test-reports

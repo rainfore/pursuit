@@ -14,7 +14,7 @@
         <div class="m-header">
             <h2>A Fast, Advanced and Componentized</h2>
             <h3>Front-end Framework for Your Next Web Application</h3>
-            <a class="u-btn u-btn-primary u-btn-lg" href="https://github.com/rainfore/pursuit-cli">VIEW ON GITHUB</a>
+            <a class="u-btn u-btn-primary u-btn-lg" href="https://github.com/rainfore/pursuit-cli"><i class="i-icon i-icon-github"></i> VIEW ON GITHUB</a>
         </div>
     </div>
 </div>
@@ -22,6 +22,8 @@
     <div class="g-wrap">
         <tabs>
             <tab title="Build">
+                <i class="i-icon i-icon-github"></i>
+                <i class="i-icon i-icon-star"></i>
                 <img src="img/qrcode.png" width="200" />
                 <button class="u-btn" on-click={this.showModal()}>Register</button>
             </tab>

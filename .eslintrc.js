@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['eslint-config-rgui/loose'],
+    extends: ['eslint-config-rgui/dev'],
     env: {
         'browser': true,
         'es6': true,
