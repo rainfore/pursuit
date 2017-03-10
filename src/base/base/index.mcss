@@ -1,4 +1,4 @@
-@import 'rgui-css-base/base/core.mcss';
+@import 'rgui-css-base/src/base/core.mcss';
 
 body {
     font: $font-size-base/$line-height-base $font-family-sans-serif;

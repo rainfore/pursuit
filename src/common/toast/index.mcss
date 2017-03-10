@@ -1,4 +1,4 @@
-@import 'rgui-ui-toast/toast/core.mcss';
+@import 'rgui-ui-toast/src/toast/core.mcss';
 
 // Component:       `m-toast`
 // ========================================================================

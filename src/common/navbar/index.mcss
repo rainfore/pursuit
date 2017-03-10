@@ -1,4 +1,4 @@
-@import 'rgui-css-standard/navbar/core.mcss';
+@import 'rgui-css-standard/src/navbar/core.mcss';
 
 // Varibles:
 // ========================================================================

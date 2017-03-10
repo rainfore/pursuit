@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['eslint-config-rgui/dev'],
+    extends: 'rgui',
     env: {
         'browser': true,
         'es6': true,

@@ -19,7 +19,7 @@ const RegisterModal = Modal.extend({
             password: this.data.password,
         });
         this.close();
-    }
+    },
 });
 
 export default RegisterModal;

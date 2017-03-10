@@ -1,4 +1,4 @@
-@import "rgui-ui-tabs/tabs/core.mcss";
+@import "rgui-ui-tabs/src/tabs/core.mcss";
 
 // Variables:
 // ========================================================================

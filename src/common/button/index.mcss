@@ -1,4 +1,4 @@
-@import 'rgui-css-standard/button/core.mcss';
+@import 'rgui-css-standard/src/button/core.mcss';
 
 // Component:       `u-btn`
 // ========================================================================

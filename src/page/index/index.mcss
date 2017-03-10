@@ -1,12 +1,12 @@
 @abstract 'mass/index.mcss';
-@abstract 'rgui-css-base/helper/index.mcss';
+@abstract 'rgui-css-base/src/helper/index.mcss';
 $reset-nec();
 
 // Base
 @import '../../base/variable/index.mcss';
 @import '../../base/base/index.mcss';
 @import '../../base/grid/index.mcss';
-@import 'rgui-css-base/function/index.mcss';
+@import 'rgui-css-base/src/function/index.mcss';
 
 // Icons
 @import '../../icons/css/i-icon.css';
@@ -34,4 +34,3 @@ $reset-nec();
 
 // Specific Components
 @import '../../specific/registerModal/index.mcss';
-

@@ -32,15 +32,14 @@
     "eslint"
   ],
   "dependencies": {
-    "css-standard": "^0.1.0",
     "eslint-config-rgui": "^1.0.0",
     "regular-state": "^0.2.1",
     "regularjs": "^0.4.3",
-    "rgui-css-base": "^0.2.0-alpha",
-    "rgui-css-standard": "^0.2.0-alpha",
-    "rgui-ui-base": "^0.2.0-alpha.5",
-    "rgui-ui-modal": "^0.2.0-alpha.2",
-    "rgui-ui-tabs": "^0.2.0-alpha.1",
-    "rgui-ui-toast": "^0.2.0-alpha.1"
+    "rgui-css-base": "^0.2.0",
+    "rgui-css-standard": "^0.2.0",
+    "rgui-ui-base": "^0.2.0",
+    "rgui-ui-modal": "^0.2.0",
+    "rgui-ui-tabs": "^0.2.0",
+    "rgui-ui-toast": "^0.2.0"
   }
 }

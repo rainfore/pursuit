@@ -1,4 +1,4 @@
-@import "rgui-ui-modal/modal/core.mcss";
+@import "rgui-ui-modal/src/modal/core.mcss";
 
 // Component:       `m-modal`
 // ========================================================================
